@@ -19,7 +19,7 @@ function calculateArea() {
     var frontone = BodyRise-Waistband;
     var fronttwo = Waisttohip-Waistband;
     var frontthree = Waisttofloor-Waistband;
-    var frontfour = 11111;
+    var frontfour = ((frontthree-frontone)/2)-5;
     var frontfive = (Hips/12)+0.5;
     var frontseven = Hips/4;
     var frontnine = Hips/16;
@@ -57,7 +57,7 @@ function calculateArea() {
     var backone = frontfive*1/4;
     var backtwo = 11111;
     var backthree = 1/4*Waist+4.25;
-    var backfour = 11111;
+    var backfour = (frontnine/2)-0.5;
     var backfive = 1/4*Hips+1.5;
 
 
